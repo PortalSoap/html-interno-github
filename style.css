@@ -35,3 +35,9 @@ body {
 .basic-text-box p {
   margin: 10px 0px; 
 }
+
+@media (max-width: 400px) {
+  :root {
+    --font-size: 13px; 
+  }
+}
