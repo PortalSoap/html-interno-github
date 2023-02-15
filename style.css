@@ -1,0 +1,30 @@
+:root {
+  --lb-width: 70vw;
+  --lb-height: auto;
+  --bsc-color: #999;
+  --bscgrd-color: linear-gradient(90deg, #DDD, var(--bsc-color));
+  --font-size: 16px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-size: var(--font-size);
+}
+
+.basic-text-box {
+  width: var(--lb-width);
+  height: var(--lb-height);
+  background: var(--bscgrd-color);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.basic-text-box h1 {
+  margin: 0px;
+}
+
+.basic-text-box p {
+  margin: 10px 0px; 
+}
